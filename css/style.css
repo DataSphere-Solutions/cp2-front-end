@@ -1,0 +1,109 @@
+*{
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,#dd1818,orange);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Ajuste o espaçamento entre os itens conforme necessário */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove a margem à direita do último item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-style: oblique;
+    background-color: blanchedalmond;
+}
+#logo {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    margin-top: 20px; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h1{
+    font-size: 40px; 
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    color:#000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    width: 250px; 
+    height: 380px; 
+    display: inline-block;
+    background-color: #219221;
+    margin-top: 70px;
+    margin-left: 10%;
+    text-align: center; 
+}
+
+.card img{
+    width: 50%; 
+    height: auto; 
+}
+
+.card h3{
+    font-size: 20px; 
+    margin-top: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card p{
+    font-size: 20px; 
+    color:#fff; 
+
+}
+main section {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px; 
+}
