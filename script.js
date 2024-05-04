@@ -1,5 +1,5 @@
 // SlideShow Automático
-let imagens=['/img/pitbull.png','/img/pngwing.com.png'];
+let imagens=['/img/anuncicelular2.png','/img/anunciocelular1.png','/img/anunciocelular3.png','/img/anunciocelular4.png'];
 let index = 0;
 let time = 3000;
 

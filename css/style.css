@@ -87,12 +87,18 @@ nav ul li a {
     border-radius: 20px;
     text-align: center;
     margin: auto;
-    padding: 50px;
+    padding: 0px;
     margin-left: 100px;
+    margin-bottom: auto;
+}
+#card.hover{
+    cursor: pointer;
+    color: aqua;
 }
 .card img {
-    width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
 }
 
 .card h3 {
@@ -127,4 +133,13 @@ span#burguer :hover{
 }
 menu{
     display: none;
+}
+h2{
+    font-family: sans-serif;
+}
+.card button{
+    margin-bottom: 30px;
+    position: relative;
+
+    
 }
