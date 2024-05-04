@@ -61,6 +61,11 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+section {
+    height: 100vh;
+}
+
 /* Estilos do banner */
 #banner {
     width: 100%;
