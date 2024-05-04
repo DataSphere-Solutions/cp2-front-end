@@ -14,4 +14,12 @@ function slideShow(){
 }
 slideShow();
 
-// Função que alterna entre 3 cores de fundo do index
+function clickMenu(){
+    if(item.style.display == 'block') {
+        item.style.display ='block'
+    } else {
+        item.style.display = 'block'
+
+    }
+
+}

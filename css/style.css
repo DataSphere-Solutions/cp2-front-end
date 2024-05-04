@@ -20,36 +20,41 @@ h1 {
 }
 
 /* Estilos de navegação */
-header {
-    background-color: #fff; /* Adicione uma cor de fundo ao cabeçalho */
-    padding: 20px; /* Adicione um preenchimento interno ao cabeçalho */
-}
-
-nav ul {
+header ul {
     list-style-type: none;
-    display: flex; /* Exibir os itens de navegação em linha */
-    justify-content: center; /* Centralizar os itens de navegação horizontalmente */
-    align-items: center; /* Centralizar os itens de navegação verticalmente */
+    padding: 0;
+    margin: 0;
 }
 
-nav ul li {
+header li {
+    display: inline-block;
     margin-right: 20px;
 }
 
-nav ul li:last-child {
+header li:last-child {
     margin-right: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+}
+header input[type="text"] {
+    width: 200px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Ajuste o espaçamento entre os itens conforme necessário */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove a margem à direita do último item */
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-    align-items: center;
 }
-
-header input[type="text"] {
-    width: 200px;
-}
-
 /* Estilos do banner */
 #banner {
     width: 100%;
@@ -74,13 +79,17 @@ header input[type="text"] {
 
 .card {
     width: 250px;
-    height: 380px;
-    background-color: #219221;
-    margin: 0 10px 20px; /* Espaçamento entre os cartões */
+    height: 520px;
+    display: inline-block;
+    background-color: burlywood;
+    margin-top: 70px;
+    margin-left: 10%;
+    border-radius: 20px;
     text-align: center;
-    justify-content: center;
+    margin: auto;
+    padding: 50px;
+    margin-left: 100px;
 }
-
 .card img {
     width: 100%;
     height: auto;
@@ -99,4 +108,23 @@ header input[type="text"] {
 h2{
    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+}
+header input[type="text"] {
+    width: 500px;
+}
+
+span#burguer{
+    background-color: rgb(238, 233, 233);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+span#burguer :hover{
+    background-color: #8b1a1a;
+    color: black;
+    cursor: pointer;
+}
+menu{
+    display: none;
 }
