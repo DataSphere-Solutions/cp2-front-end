@@ -173,6 +173,8 @@ main > #portifolio {
     margin: auto;
     margin-top: 5%;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #card.hover{
@@ -180,8 +182,8 @@ main > #portifolio {
     color: aqua;
 }
 .card img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
 }
 
@@ -192,7 +194,7 @@ main > #portifolio {
 }
 
 .card p {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
 }
 
