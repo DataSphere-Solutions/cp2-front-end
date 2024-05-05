@@ -159,7 +159,7 @@ main > #portifolio {
 
 .card {
     width: 250px;
-    height: 520px;
+    height: auto;
     display: inline-block;
     background-color: burlywood;
     margin-top: 70px;
@@ -167,6 +167,7 @@ main > #portifolio {
     text-align: center;
     margin: auto;
     margin-top: 5%;
+    padding: 30px;
 }
 
 #card.hover{
@@ -190,9 +191,21 @@ main > #portifolio {
     color: #fff;
 }
 
-.card button{
-    margin-bottom: 30px;
-    position: relative;
+.card button {
+    margin-top: 50px;
+    background-color: bisque;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+.card button:hover {
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
 }
 
 
@@ -265,7 +278,4 @@ footer {
         margin-bottom: 8%;
     }
 
-    .card {
-        
-    }
 }
