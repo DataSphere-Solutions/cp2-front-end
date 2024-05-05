@@ -186,31 +186,6 @@ section{
 }
 
 
-/*
-
-
-header input[type="text"] {
-    width: 500px;
-}
-*/
-
-/*
-span#burguer{
-    background-color: rgb(238, 233, 233);
-    display: block;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-span#burguer :hover{
-    background-color: #8b1a1a;
-    color: black;
-    cursor: pointer;
-}
-*/
-
-
 footer {
     display: flex;
     justify-content: center;
