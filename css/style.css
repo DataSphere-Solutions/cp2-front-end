@@ -144,7 +144,8 @@ section {
 #portfolio {
     display: flex;
     flex-wrap: wrap; /* Permitir que os cartões quebrem para uma nova linha conforme necessário */
-    justify-content: center;
+    justify-content: space-between;
+    display: flex;
 }
 
 
