@@ -11,6 +11,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+hr{
+    height: 2px;
+    background-color: black;
+    border: #000000;
+}
 h1 {
     height: 0;
     text-transform: uppercase;
@@ -175,8 +180,8 @@ main > #portifolio {
     color: aqua;
 }
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
 }
 
