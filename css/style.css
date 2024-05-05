@@ -64,14 +64,23 @@ nav ul li {
     float: left;
 }
 
-nav a {
+nav li a {
     padding:10px;
     text-decoration: none;
     display: block;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    color:#36ba01;
+    color:black;
+}
+
+nav > ul > li > #busca {
+    width: 320px;
+    padding:10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color:black;
 }
 
 nav ul ul{
@@ -203,6 +212,12 @@ footer {
 
 @media (max-width:800px){
 
+    nav > ul > li > #busca {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
     nav ul li{
         width: 100%;
         float: none;
@@ -236,6 +251,10 @@ footer {
         margin-top: 5px;
         margin-left: -100%;
         transition: all 0.5s;
+    }
+
+    #banner {
+        height: 85vh;
     }
 
     #portifolio {
