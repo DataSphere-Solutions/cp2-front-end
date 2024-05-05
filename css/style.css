@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    text-align: center;
+    height: 0;
     text-transform: uppercase;
     font-size: 40px;
     font-style: oblique;
@@ -50,8 +50,11 @@ header input[type="text"] {
 }
 
 nav {
-    width: 100%;
+    display: flex;
+    justify-content: space-around;
     height: 50px;
+    width: 100%;
+    background-color: blanchedalmond;
 }
 
 nav ul {
@@ -113,7 +116,6 @@ nav #busca{
 
 label[for="bt-menu"] {
     padding: 5px;
-    background: transparent;
     color: black;
     display: flex;
     justify-content: center;
@@ -154,7 +156,6 @@ main > #portifolio {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 .card {
     width: 250px;
@@ -208,6 +209,10 @@ footer {
 
 @media (max-width:800px){
 
+    nav {
+        background-color: transparent;
+    }
+
     nav > ul > li > #busca {
         width: 50%;
         margin: auto;
@@ -253,4 +258,14 @@ footer {
         height: 85vh;
     }
 
+    main > #portifolio {
+        display: block;
+        height: auto;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+    .card {
+        
+    }
 }
