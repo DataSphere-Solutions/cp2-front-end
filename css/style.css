@@ -64,23 +64,14 @@ nav ul li {
     float: left;
 }
 
-nav li a {
+nav a {
     padding:10px;
     text-decoration: none;
     display: block;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    color:black;
-}
-
-nav > ul > li > #busca {
-    width: 320px;
-    padding:10px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    color:black;
+    color:#36ba01;
 }
 
 nav ul ul{
@@ -150,9 +141,10 @@ section {
 }
 
 /* Estilos do portfólio */
-main > #portifolio {
+#portfolio {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap; /* Permitir que os cartões quebrem para uma nova linha conforme necessário */
+    justify-content: center;
 }
 
 
@@ -162,10 +154,13 @@ main > #portifolio {
     display: inline-block;
     background-color: burlywood;
     margin-top: 70px;
+    margin-left: 10%;
     border-radius: 20px;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
+    padding: 0px;
+    margin-left: 100px;
+    margin-bottom: auto;
 }
 
 #card.hover{
@@ -208,12 +203,6 @@ footer {
 
 @media (max-width:800px){
 
-    nav > ul > li > #busca {
-        width: 50%;
-        margin: auto;
-        text-align: center;
-    }
-
     nav ul li{
         width: 100%;
         float: none;
@@ -249,8 +238,11 @@ footer {
         transition: all 0.5s;
     }
 
-    #banner {
-        height: 85vh;
+    #portifolio {
+        height: 420vh;
     }
 
+    .card {
+        margin-top: 5%;
+    }
 }
