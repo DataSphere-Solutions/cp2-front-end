@@ -97,6 +97,10 @@ nav ul ul li a{
     background: #FA8F04;
     color:white;
 }
+nav #busca{
+    margin-top: 10px;
+    height: 20px;
+}
 
 label[for="bt-menu"] {
     padding: 5px;
