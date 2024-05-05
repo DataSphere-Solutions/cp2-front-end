@@ -117,15 +117,14 @@ label[for="bt-menu"]{
     display: none;
 }
 
-section{
+section {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 /* Estilos do banner */
 #banner {
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,6 +142,7 @@ section{
     flex-wrap: wrap; /* Permitir que os cartões quebrem para uma nova linha conforme necessário */
     justify-content: center;
 }
+
 
 .card {
     width: 250px;
@@ -235,6 +235,10 @@ footer {
     }
 
     #portifolio {
-        height: 380vh;
+        height: 420vh;
+    }
+
+    .card {
+        margin-top: 5%;
     }
 }
